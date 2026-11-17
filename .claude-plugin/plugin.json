@@ -1,0 +1,48 @@
+{
+  "name": "worklog",
+  "displayName": "Worklog",
+  "version": "1.0.0",
+  "description": "Your work log, kept by Claude. Logs the tasks Claude Code finishes, answers 'what did I do this week?', writes standups and shows your focus score, all from your Worklog account.",
+  "author": {
+    "name": "Worklog",
+    "url": "https://worklog.pro.et"
+  },
+  "homepage": "https://worklog.pro.et",
+  "repository": "https://github.com/Kidyoh/worklog-plugin",
+  "license": "MIT",
+  "keywords": [
+    "worklog",
+    "time tracking",
+    "standup",
+    "timesheet",
+    "productivity",
+    "focus",
+    "mcp"
+  ],
+  "icon": "icon.png",
+  "documentationUrl": "https://worklog.pro.et/connect-ai",
+  "supportUrl": "https://github.com/Kidyoh/worklog-plugin/issues",
+  "privacyPolicyUrl": "https://worklog.pro.et/privacy",
+  "termsOfServiceUrl": "https://worklog.pro.et/terms",
+  "userConfig": {
+    "worklog_api_key": {
+      "type": "string",
+      "title": "Worklog API key",
+      "description": "Create one at worklog.pro.et → Connect AI → Create an API key. Starts with wl_.",
+      "required": true,
+      "sensitive": true
+    },
+    "worklog_url": {
+      "type": "string",
+      "title": "Worklog address",
+      "description": "Only change this if you run your own Worklog server.",
+      "default": "https://worklog.pro.et"
+    },
+    "auto_capture": {
+      "type": "boolean",
+      "title": "Log every session automatically",
+      "description": "When on, a short summary of each Claude Code session (project name, first line of your request, a short excerpt of the result, duration) is sent to your Worklog. Links, code and secrets are removed.",
+      "default": true
+    }
+  }
+}

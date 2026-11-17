@@ -1,0 +1,12 @@
+{
+  "description": "Optional automatic session capture: sends a short, redacted summary of each finished Claude Code session to your Worklog. Turn it off with the auto_capture option.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/worklog-hook.mjs"], "timeout": 15 }
+        ]
+      }
+    ]
+  }
+}
