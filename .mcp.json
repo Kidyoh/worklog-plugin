@@ -2,8 +2,7 @@
   "mcpServers": {
     "worklog": {
       "type": "http",
-      "url": "${user_config.worklog_url}/api/mcp",
-      "headers": { "Authorization": "Bearer ${user_config.worklog_api_key}" }
+      "url": "https://worklog.pro.et/api/mcp"
     }
   }
 }

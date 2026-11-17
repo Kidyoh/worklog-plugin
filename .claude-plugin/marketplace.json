@@ -1,6 +1,8 @@
 {
   "name": "worklog",
-  "owner": { "name": "Worklog", "url": "https://worklog.pro.et" },
+  "owner": {
+    "name": "Worklog"
+  },
   "description": "Worklog for Claude Code: your work log, kept by Claude.",
   "plugins": [
     {
