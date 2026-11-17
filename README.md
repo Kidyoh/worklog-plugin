@@ -33,4 +33,4 @@ Privacy policy: https://worklog.pro.et/privacy · Terms: https://worklog.pro.et/
 
 ## Support
 
-Questions and issues: https://github.com/Kidyoh/worklog-plugin/issues
+Help and contact: https://worklog.pro.et/support · Bug reports: https://github.com/Kidyoh/worklog-plugin/issues
